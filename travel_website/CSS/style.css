@@ -220,3 +220,8 @@ body {
     text-decoration: none;
     font-weight: 500;
 }
+
+footer{
+    height: 5rem;
+    background-color: rgb(26, 24, 24);
+}
