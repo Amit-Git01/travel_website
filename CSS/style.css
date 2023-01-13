@@ -272,3 +272,16 @@ body {
     background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
     color: #e8dfdf;
 }
+
+/* ############# footer styling ########### */
+
+.footer{
+    background-color: #262326;
+    color: #e4e4e4;
+    padding: 2rem;
+    text-align: center;
+}
+
+.social-media-links i{
+    margin: 1rem;
+}
