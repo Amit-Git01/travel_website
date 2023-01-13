@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e6e4e1;
+}
+
+.header {
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)) ,url('../img/header.jpg');
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 10rem;
+}
+
+/* ######### utility class ############ */
+
+.mn-heading{
+    font-size: 2.4rem;
+}
+
+.mn-white{
+    color: whitesmoke;
+}
+
+.item-color{
+    color: whitesmoke;
+}
+
+.btn{
+    color: rgb(247, 79, 68);
+}
+
+.text-red{
+    color: #ee4758;
+}
+.container{
+    /* border: 2px solid rebeccapurple; */
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+.mid-heading{
+    color: #0e0e0e;
+}
+
+/* ################ header style ########### */
+
+.navbar {
+    /* border: 2px solid whitesmoke; */
+    padding: 1em;
+}
+
+.navbar .logo {
+    float: left;
+    margin-top: 0.5rem;
+    letter-spacing: 0.18rem;
+    word-spacing: 0.5rem;
+}
+
+.navbar .nav-items {
+    float: right;
+    margin-top: 0.5rem;
+}
+
+.header .navbar .nav-item {
+    display: inline-block;
+    font-size: 1.8rem;
+    list-style: none;
+    padding: 0.5em;
+    letter-spacing: 0.15rem;
+} 
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.navbar ul a:link{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar ul a:visited{
+    color: whitesmoke;
+}
+
+.navbar ul a:hover{
+    border-bottom: 2px solid whitesmoke;
+}
+
+
+/* ######### header content styling ########## */
+
+.header-content{
+    position: absolute;
+    /* border: 2px solid white; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 400px;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+}
+
+.header-content h1{
+    text-transform: uppercase;
+    font-weight: 600;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
+    padding: 0.3rem;
+    margin-top: 0.4em;
+}
+
+.header-content p{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
+    padding: 0.5em;
+}
+
+.header-content .btn-main{
+    font-size: 1.6rem;
+    font-weight: 500;
+    display: inline-block;
+    background-color: aliceblue;
+    padding: 0.5em;
+    margin: 0.5rem 0;
+    border-radius: 9rem;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
+}
+
+.header-content a:link{
+    text-decoration: none;
+}
+
+.header-content a:hover{
+    text-decoration: underline;
+}
+
+/* ############# showcase styling################ */
+
+.showcase{
+    margin-bottom: 10rem;
+    
+}
+.row{
+    height: 300px;
+    width: 900px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    background-color: #e8dfdf;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.342);
+}
+
+.row1{
+    margin-bottom: 10rem;
+}
+.row .img-box{
+    /* border: 2px solid darkmagenta; */
+    width: 50%;
+    height: 100%;
+}
+
+.row .text-box{
+    /* border: 2px solid green; */
+    width: 50%;
+    height: 100%;
+}
+
+.row1 .img-box, .row2 .text-box{
+    float: left;
+}
+
+.row2 .img-box, .row1 .text-box{
+    float: right;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.row1 .text-box, .row2 .text-box{
+    padding: 1.2rem;
+    font-size: 1.6rem;
+}
+
+.row .img-box img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.row p{
+    font-weight: 300;
+    color: rgb(100, 100, 100);
+    word-spacing: .2rem;
+    letter-spacing: 0.09rem;
+}
+
+.btn-secondary{
+    display: inline-block;
+    border: 1px solid rgb(247, 79, 68);;
+    border-radius: 2.2rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* ################# feature section style ############# */
+
+.features{
+    padding: 6rem 0;
+}
+
+.box-wrapper{
+    /* border: 2px solid red; */
+    width: 900px;
+    margin: 0 auto;
+    box-shadow:  0px 0px 20px 0px rgba(0, 0, 0, 0.342);
+}
+
+.box{
+    width: 33.33333%;
+    /* border: 2px solid black; */
+    float: left;
+    padding: 2rem;
+    text-align: center;
+}
+
+.box-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.box p{
+    font-size: 1.6rem;
+}
+
+.box h2{
+    font-size: 1.8rem;
+}
+
+.box-1, .box-3{
+    background-color: #262326;
+    color: #e8dfdf;
+}
+
+.box-2{
+    background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    color: #e8dfdf;
+}
