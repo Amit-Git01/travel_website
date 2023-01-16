@@ -301,6 +301,7 @@ ul li{
 .about{
     /* border: 2px solid purple; */
     padding: 5rem 0;
+    height: 560px;
 }
 
 .about .container{
@@ -413,7 +414,7 @@ ul li{
 
 .banner-line{
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 500;
     color: #f4f4f4;
     padding: 0.4rem;
     margin-top: 1.5rem;
@@ -432,4 +433,114 @@ ul li{
     color: #e6e4e1;
     margin: 1.1rem 2rem 1.3rem 0;
     padding: .3rem;
+}
+
+/* ############## contact styling ################ */
+
+.contact-box{
+    padding: 5rem;
+}
+
+.form-wrapper{
+    /* border: 2px solid red; */
+    padding: 1rem;
+}
+
+.form-wrapper .address{
+    height: 760px;
+    /* border: 2px dotted darkmagenta; */
+    float: left;
+    width: 49%;
+}
+
+.form-wrapper .form{
+    height: 760px;
+    /* border: 2px dotted darkmagenta; */
+    float: right;
+    width: 49%;
+}
+
+.form-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* ###################### address styling ################### */
+
+.form-wrapper .address i{
+    display: inline-block;
+    margin-right: 1rem;
+
+}
+
+.form-wrapper .address h2{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+.form-wrapper .address p{
+    font-size: 1.4rem;
+    color: gray;
+}
+
+.form-wrapper .address img{
+    max-width: 80%;
+    min-height: 30rem;
+    object-fit: cover;
+    object-position: center;
+}
+.form-wrapper .address-group{
+    margin-bottom: 3rem;
+    text-align: left;
+}
+
+
+/* ################## form styling ############### */
+
+.form h1{
+    text-align: left;
+    font-weight: 500;
+}
+.form h1::after{
+    content: "";
+    display: block;
+    border: 3px solid #ee4758;
+    width: 99%;
+}
+
+.form p{
+    font-size: 1.2rem;
+    color: gray;
+    text-align: left;
+    padding: .5rem;
+}
+
+.form .form-group{
+    text-align: left;
+    margin-bottom: 1.2rem;
+}
+.form-wrapper label{
+    display: block;
+    padding: .2rem;
+    font-size: 1.6rem;
+    color: gray;
+}
+
+.form-wrapper .form input{
+    display: block;
+    padding: .5rem;
+    width: 100%;
+}
+.form-wrapper .form textarea{
+    display: block;
+    width: 100%;
+}
+
+.form .form-btn{
+    padding: 0.5em 3rem;
+    text-transform: uppercase;
+    background: #ee4758;
+    color: #e4e4e4;
+    border: none;
 }
