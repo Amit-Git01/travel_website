@@ -441,10 +441,10 @@ ul li{
     padding: 5rem;
 }
 
-/* .form-wrapper{
-    /* border: 2px solid red; */
-    /* padding: 1rem; */
-/* } */ */
+.form-wrapper{
+    /* border: 2px solid red; * */
+    padding: 1rem;
+}
 
 .form-wrapper .address{
     height: 760px;
@@ -546,7 +546,7 @@ ul li{
 }
 /* ####################### media query ##################### */
 
-@media (max-width: 786px) {
+@media (max-width: 650px) {
     html{
         font-size: 50%;
     }
