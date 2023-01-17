@@ -54,7 +54,7 @@ body {
 }
 .container{
     /* border: 2px solid rebeccapurple; */
-    max-width: 1300px;
+    max-width: 1200px;
     width: 90%;
     margin: 0 auto;
     text-align: center;
@@ -246,7 +246,6 @@ ul li{
 
 .box-wrapper{
     /* border: 2px solid red; */
-    width: 900px;
     margin: 0 auto;
     box-shadow:  0px 0px 20px 0px rgba(0, 0, 0, 0.342);
 }
@@ -290,6 +289,7 @@ ul li{
     color: #e4e4e4;
     padding: 2rem;
     text-align: center;
+    width: 100%;
 }
 
 .social-media-links i{
@@ -443,7 +443,7 @@ ul li{
 
 .form-wrapper{
     /* border: 2px solid red; */
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 .form-wrapper .address{
@@ -543,4 +543,65 @@ ul li{
     background: #ee4758;
     color: #e4e4e4;
     border: none;
+}
+/* ####################### media query ##################### */
+
+@media (max-width: 786px) {
+    html{
+        font-size: 50%;
+    }
+
+    .navbar .logo,
+    .navbar .nav-items{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .row{
+        height: auto;
+        width: 100%;
+    }
+    .row .img-box,
+    .row .text-box{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features .box{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features .box-2,
+    .features .box-3{
+        margin-top: 5rem;
+    }
+
+    .banner{
+        height: auto;
+    }
+    .banner-left,
+    .banner-right{
+        float: none;
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .form-wrapper .address,
+    .form-wrapper .form{
+        float: none;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .form-wrapper .address{
+        margin-bottom: 5rem;
+    }
 }
